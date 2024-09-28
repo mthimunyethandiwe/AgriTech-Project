@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QS-Inputs Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <main>
+        <header>
+            <h1>QS-Inputs Marketplace</h1>
+        </header>
+
+        <section id="Product-List">
+            <h2>Available Products</h2>
+            <div id="Products"></div>
+        </section>
+
+        <section id="Add-Product">
+            <h2>Add a New Product</h2>
+            <form id="Product-Form">
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" required>
+
+                <label for="category">Category:</label>
+                <input type="text" id="category" required>
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" required>
+
+                <button type="submit">Add Product</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
